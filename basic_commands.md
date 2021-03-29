@@ -1,4 +1,4 @@
-#basic-django-commands
+# basic-django-commands
 ## Django command line commands as in what you type in the Terminal or Command Prompt` depending on your system have two different syntax operations:
 
 django-admin <command>

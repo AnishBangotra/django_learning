@@ -1,7 +1,7 @@
 #basic-django-commands
-Django command line commands as in what you type in the Terminal or Command Prompt` depending on your system have two different syntax operations:
+## Django command line commands as in what you type in the Terminal or Command Prompt` depending on your system have two different syntax operations:
 
-\django-admin <command>
+django-admin <command>
 django-admin.py <command>
 python manage.py <command>
 
@@ -12,7 +12,7 @@ Requirements: You must run this in the ROOT of yourport django project where man
 
 Useful subcommand: python manage.py runserver <yourport> so you can change the port from above. So python manage.py runserver 8888 would allow you to access django on 127.0.0.1:8888. This is very useful if you want 2 or more Django servers running locally at the same time.
 
-##2) python manage.py makemigrations
+## 2) python manage.py makemigrations
 When you make changes to your models, your database needs to understand how these changes might affect the database. This command automatically makes files that document these changes. You can also considers this a version control (aka history) for your Django models. This is useless without ....
 
 ## 3) python manage.py migrate This command replaces `python manage.py syncdb` in many ways and the main one being that `migrate` means it will update your database to the latest version of your Django models. `python manage.py migrate` will also insert external packages (such as `django-allauth`) into your database.

@@ -7,7 +7,7 @@
 from django import forms
 #Creating a form
 
-class GeekForm(forms.Form):
+class CreatForm(forms.Form):
 	title = forms.CharField()
 	description = forms.CharField()
 ```

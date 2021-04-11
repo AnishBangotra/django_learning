@@ -1,8 +1,8 @@
-#Django Forms
+# Django Forms
 
-###When one creates a Form class, the most important part is defining the fields of the form. Each field has custom validation logic, along with a few other hooks. This article revolves around various fields one can use in a form along with various features and techniques concerned with Django Forms. Forms are basically used for taking input from the user in some manner and using that information for logical operations on databases. For example, Registering a user by taking input as his name, email, password, etc.
+### When one creates a Form class, the most important part is defining the fields of the form. Each field has custom validation logic, along with a few other hooks. This article revolves around various fields one can use in a form along with various features and techniques concerned with Django Forms. Forms are basically used for taking input from the user in some manner and using that information for logical operations on databases. For example, Registering a user by taking input as his name, email, password, etc.
 
-##Syntax:
+## Syntax:
 ```python
 from django import forms
 #Creating a form
@@ -14,9 +14,9 @@ class GeekForm(forms.Form):
 
 **Creating a Django Form**
 
-###Creating a form in Django is completely similar to creating a model, one needs to specify what fields would exist in the form and of what type. For example, to input, a registration form one might need first CharField, IntegerField and so on.
+### Creating a form in Django is completely similar to creating a model, one needs to specify what fields would exist in the form and of what type. For example, to input, a registration form one might need first CharField, IntegerField and so on.
 
-###Syntax
+### Syntax
 ```python
 from django import forms
 
@@ -28,9 +28,9 @@ class InputForm(forms.Form):
 	password = forms.CharField(widget = forms.PasswordInput())
 ```
 
-##Simple to Render Forms
+## Simple to Render Forms
 
-###To render this form into a view, move to views.py and create a home_view as below.
+### To render this form into a view, move to views.py and create a home_view as below.
 
 ```python
 from django.shortcuts import render
@@ -48,7 +48,7 @@ def home_view(request):
 
 **Create Forms from Models**
 
-###Django ModelForm is a class that is used to directly convert a model into a Django form. If you’re building a database-driven app, chances are you’ll have forms that map closely to Django models.
+### Django ModelForm is a class that is used to directly convert a model into a Django form. If you’re building a database-driven app, chances are you’ll have forms that map closely to Django models.
 
 ```python
 #import standard django model from built-in library

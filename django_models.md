@@ -44,7 +44,7 @@ Python manage.py makemigrations
 Python manage.py migrate
 ```
 
-## Now the only thing left is to render these models which done by the django admin interface of your app in admin.py. Simply import your model and register it to your admin interface.
+### Now the only thing left is to render these models which done by the django admin interface of your app in admin.py. Simply import your model and register it to your admin interface.
 
 ```python
 from django.contrib import admin 

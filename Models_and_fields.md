@@ -1,4 +1,4 @@
-# model data types and fields list
+# Model data types and fields list
 
 ### model is the list of database fields it defines. Fields are specified by class attributes. Be careful not to choose field names that conflict with the models API like clean, save, or delete. 
 
@@ -14,7 +14,7 @@ class Album(models.Model):
     artist = models.ForeignKey(Musician, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)
     release_date = models.DateField()
-    num_stars = models.IntegerField()
+    rating = models.IntegerField()
 ```
 
 ### Each field in the model should be an instance of the appropriate Field class. Django uses field class types to determine a few things.

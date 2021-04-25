@@ -40,4 +40,4 @@ urlpatterns = [
 ]
 ```
 
-## Now you are ready to go creaing models, views and urls it will work totally fine.
+## Now you are ready to go creating models, views and urls it will work totally fine.

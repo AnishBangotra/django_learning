@@ -32,7 +32,7 @@ Python manage.py makemigrations
 Python manage.py migrate
 ```
  
-# Now you can go on creating a django form in your app by naming forms.py
+## Now you can go on creating a django form in your app by naming forms.py
 
 ```python
 from django import forms

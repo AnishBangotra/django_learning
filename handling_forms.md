@@ -54,7 +54,7 @@ def home_view(request):
 #import standard django model from built-in library
 from django.db import models
 
-class GeeksModel(models.Model):
+class FirstModel(models.Model):
 	#fields of the model are
 	title = models.CharField(max_length = 200)
 	content = models.TextField()

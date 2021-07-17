@@ -2,7 +2,7 @@
 Python scripts to automate your virtual environment and django project
 
 ### Requirement:
--Python
+    Python
 
 ### Installation:
 ```

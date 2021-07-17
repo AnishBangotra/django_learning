@@ -1,0 +1,1 @@
+## Django Quick Installation
